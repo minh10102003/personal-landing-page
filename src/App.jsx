@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Mail, Phone, MapPin, Github, Linkedin, Twitter, Facebook, Code, Palette, Coffee, Music, Camera, Heart, Send, Menu, X, Star, Award, Briefcase, GraduationCap } from 'lucide-react';
+import { ChevronDown, Mail, Phone, MapPin, Github, Linkedin, Twitter, Facebook, Code, Palette, Coffee, Music, Camera, Heart, Send, Menu, X } from 'lucide-react';
 import myPhoto from "./assets/profile.jpg";
 
 // Header Component
@@ -733,19 +733,35 @@ const Footer = () => {
           </p>
 
           <div className="flex justify-center space-x-6 mb-8">
-            <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-200">
-              <Github size={24} />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
-              <Linkedin size={24} />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-sky-400 transition-colors duration-200">
-              <Twitter size={24} />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-red-400 transition-colors duration-200">
-              <Mail size={24} />
-            </a>
-          </div>
+              <button
+                onClick={(e) => e.preventDefault()}
+                className="text-gray-400 hover:text-purple-400 transition-colors duration-200"
+                aria-label="GitHub"
+              >
+                <Github size={24} />
+              </button>
+              <button
+                onClick={(e) => e.preventDefault()}
+                className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
+                aria-label="LinkedIn"
+              >
+                <Linkedin size={24} />
+              </button>
+              <button
+                onClick={(e) => e.preventDefault()}
+                className="text-gray-400 hover:text-sky-400 transition-colors duration-200"
+                aria-label="Twitter"
+              >
+                <Twitter size={24} />
+              </button>
+              <button
+                onClick={(e) => e.preventDefault()}
+                className="text-gray-400 hover:text-red-400 transition-colors duration-200"
+                aria-label="Email"
+              >
+                <Mail size={24} />
+              </button>
+            </div>
 
           <div className="border-t border-gray-800 pt-8">
             <p className="text-gray-500 text-sm">
