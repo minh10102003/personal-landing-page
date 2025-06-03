@@ -368,8 +368,8 @@ const Projects = () => {
       description: 'Website portfolio cá nhân responsive với ReactJS và Tailwind CSS, showcase các dự án và kỹ năng với animation mượt mà',
       image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250"%3E%3Crect width="400" height="250" fill="%236366f1"/%3E%3Ctext x="200" y="135" font-family="Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white"%3EPortfolio%3C/text%3E%3C/svg%3E',
       tags: ['ReactJS', 'Tailwind CSS', 'Figma'],
-      githubLink: 'https://github.com/your-username/portfolio-website',
-      websiteLink: 'https://your-portfolio-website.com',
+      githubLink: 'https://github.com/minh10102003/personal-landing-page',
+      websiteLink: 'https://personallanding.netlify.app/',
       isWebsite: true
     },
     {
