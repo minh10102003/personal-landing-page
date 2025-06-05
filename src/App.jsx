@@ -98,7 +98,9 @@ const HeroSection = () => {
         <h2 className="text-2xl md:text-3xl text-gray-700 mb-8 font-light leading-snug">
           Tôi là <span className="font-bold text-purple-600">Nguyễn Triệu Minh</span>{" "}
           đến từ <span className="font-semibold text-blue-600">Bình Dương</span>,{" "}
-          chuyên <span className="font-semibold text-purple-600">Web Developer</span>,{" "}
+        </h2>
+        <h2 className="text-2xl md:text-3xl text-gray-700 mb-8 font-light leading-snug">
+          Chuyên <span className="font-semibold text-purple-600">Web Developer</span>,{" "}
           <span className="font-semibold text-pink-600">Java Backend</span> &{" "}
           <span className="font-semibold text-blue-600">UI/UX Designer</span>{" "}
           – sẵn sàng biến ý tưởng thành hiện thực.
