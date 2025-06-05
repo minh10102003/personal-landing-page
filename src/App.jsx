@@ -380,11 +380,11 @@ const Projects = () => {
       githubLink: 'https://github.com/PhanAnhTuan123/COFFEE_RETAIL'
     },
     {
-      title: 'Todo App Mobile',
-      description: 'Ứng dụng di động quản lý công việc với React Native, tính năng add/edit/delete task, notification và sync data',
-      image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250"%3E%3Crect width="400" height="250" fill="%23dc2626"/%3E%3Ctext x="200" y="135" font-family="Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white"%3ETodo App%3C/text%3E%3C/svg%3E',
-      tags: ['React Native', 'AsyncStorage', 'Figma'],
-      githubLink: 'https://github.com/your-username/todo-react-native'
+      title: 'Game Flappy Bird',
+      description: 'Trò chơi Flappy Bird phát triển bằng Java và JavaFX, cho phép chọn nhân vật, lưu điểm highscore, giao diện mượt mà và dễ sử dụng.',
+      image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250"%3E%3Crect width="400" height="250" fill="%230ea5e9"/%3E%3Ctext x="200" y="135" font-family="Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white"%3EFlappy Bird%3C/text%3E%3C/svg%3E',
+      tags: ['Java', 'JavaFX'],
+      githubLink: 'https://github.com/minh10102003/flappy-bird'
     }
   ];
 
